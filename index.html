@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple todo application</title>
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>Department of Mechanical Engineering</h1>
+            <input type="text" id="input"><br>
+            <button type="button" id="add">Add TODO</button>
+            <button type="button" id="remove">Remove done TODO</button>
+            <button type="button" id="removeAll">Remove all TODO's</button>
+        </div>
+        <ul id="list">
+            <list class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Prof. M N Harkude</label><br>
+            </list>
+            <list class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Prof. B K Karoshi</label><br>
+            </list>
+            <list class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Prof. S K Hulloli</label><br>
+            </list>
+            <list class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Prof. A V Navalihalkar</label>
+            </list><br>
+            <list class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Prof. I D Patil</label>
+            </list>
+        </ul>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
